@@ -38,7 +38,7 @@ async def chat_func(history):
         model="gpt-4o",
         messages=[{"role": "system", "content": system_prompt}] + history,
         max_tokens=256,
-        temperature=0.5,
+        temperature=0.0,
         stream=True,
     )
 
