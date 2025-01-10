@@ -23,7 +23,7 @@ Summary of answer
 # with open("news_result.txt") as in_file:
 #     context_content = in_file.read()
 
-with open("2024-05-EB-A_Compact_GuideTo_RAG.md", "r", encoding="utf-8", errors="ignore") as in_file:
+with open(["2024-05-EB-A_Compact_GuideTo_RAG.md","2023-10-EB-Big-Book-of-MLOps-2nd-Edition.md"], "r", encoding="utf-8", errors="ignore") as in_file:
     context_content = in_file.read()
 
 
