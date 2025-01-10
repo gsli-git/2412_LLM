@@ -7,7 +7,7 @@ import os
 client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Construct the system prompt
-system_prompt_template = """You are Bobby, a virtual assistant create by Huajun. Today is {today}. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. 
+system_prompt_template = """You are Bobby, a virtual assistant create by Guosong Li. Today is {today}. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. 
 
 Example:
 Summary of answer
@@ -23,7 +23,7 @@ Summary of answer
 # with open("news_result.txt") as in_file:
 #     context_content = in_file.read()
 
-with open("news_result.txt", "r", encoding="utf-8", errors="ignore") as in_file:
+with open("2024-05-EB-A_Compact_GuideTo_RAG.md", "r", encoding="utf-8", errors="ignore") as in_file:
     context_content = in_file.read()
 
 
